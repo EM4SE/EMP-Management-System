@@ -1,0 +1,53 @@
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\EMP Management System.exe.config
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\EMP Management System.exe
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\EMP Management System.pdb
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Guna.Charts.WinForms.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Guna.UI2.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Guna.Charts.WinForms.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP Management System.csproj.AssemblyReference.cache
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Properties.Resources.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP Management System.csproj.GenerateResource.cache
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP Management System.csproj.CoreCompileInputs.cache
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP Mana.F4418C0E.Up2Date
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP Management System.exe
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP Management System.pdb
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Designation.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Employees.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Home.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.MainForm.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Settings.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Users.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.EmployeeAdd.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\BouncyCastle.Cryptography.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Google.Protobuf.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\K4os.Compression.LZ4.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\K4os.Hash.xxHash.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\MySql.Data.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Buffers.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.IO.Pipelines.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Memory.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Numerics.Vectors.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\ZstdSharp.dll
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\BouncyCastle.Cryptography.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Google.Protobuf.pdb
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Google.Protobuf.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\K4os.Compression.LZ4.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\K4os.Hash.xxHash.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\MySql.Data.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Buffers.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.IO.Pipelines.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Memory.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Numerics.Vectors.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Employee.EmployeeEdit.resources
