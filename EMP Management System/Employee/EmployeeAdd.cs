@@ -23,17 +23,20 @@ namespace EMP_Management_System
         {
             var EmpData = new EmployeeFormData
             {
-                FullName = txtFullName.Text,
-                EmailAddress = txtEmail.Text,
-                ContactNumber = txtContact.Text,
-                ResidentAddress = txtAddress.Text,
-                Gender = comGender.SelectedItem.ToString(),
-                DateOfBirth = DateTime.Parse(pickDateOfBirth.Text),
-                Designation = comDesignation.SelectedItem.ToString(),
-                Department = comDepartment.SelectedItem.ToString(),
-                Branch = comBranch.SelectedItem.ToString(),
-                DateOfJoining = DateTime.Parse(pickDateOfJoin.Text),
-                EmploymentType = comEmpType.SelectedItem.ToString()
+       
+
+                FullName = string.IsNullOrWhiteSpace(txtFullName.Text) ? "" : txtFullName.Text,
+                EmailAddress = string.IsNullOrWhiteSpace(txtEmail.Text) ? " " : txtEmail.Text,
+                ContactNumber = string.IsNullOrWhiteSpace(txtContact.Text) ? " " : txtContact.Text,
+                ResidentAddress = string.IsNullOrWhiteSpace(txtAddress.Text) ? " " : txtAddress.Text,
+                Gender = comGender.SelectedIndex != -1 ? comGender.SelectedItem.ToString() : " ",
+                DateOfBirth = pickDateOfBirth.Value == pickDateOfBirth.MinDate ? DateTime.Now : pickDateOfBirth.Value,
+                Designation = comDesignation.SelectedIndex != -1 ? comDesignation.SelectedItem.ToString() : " ",
+                Department = comDepartment.SelectedIndex != -1 ? comDepartment.SelectedItem.ToString() : " ",
+                Branch = comBranch.SelectedIndex != -1 ? comBranch.SelectedItem.ToString() : " ",
+                DateOfJoining = pickDateOfJoin.Value == pickDateOfJoin.MinDate ? DateTime.Now : pickDateOfJoin.Value,
+                EmploymentType = comEmpType.SelectedIndex != -1 ? comEmpType.SelectedItem.ToString() : " "
+
             };
 
             EmployeeManager employeeManager = new EmployeeManager();
@@ -62,11 +65,12 @@ namespace EMP_Management_System
             txtContact.Clear();
             txtAddress.Clear(); 
             comGender.SelectedIndex = -1;
-            pickDateOfBirth.Value = DateTime.MinValue;
+            string dateTimeString = "10-Aug-2024 14:30:00";
+            pickDateOfBirth.Value = DateTime.Parse(dateTimeString);
             comDesignation.SelectedIndex = -1;  
             comDepartment.SelectedIndex = -1;
             comBranch.SelectedIndex = -1;
-            pickDateOfJoin.Value = DateTime.MinValue;
+            pickDateOfJoin.Value = DateTime.Parse(dateTimeString);
             comEmpType.SelectedIndex = -1;
         }
 

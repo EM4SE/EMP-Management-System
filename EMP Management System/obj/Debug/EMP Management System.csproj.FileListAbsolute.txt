@@ -51,3 +51,4 @@ D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\Syste
 D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\NIBM Projects\GUI\EMP Management System\EMP Management System\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Employee.EmployeeEdit.resources
+D:\NIBM Projects\GUI\EMP Management System\EMP Management System\obj\Debug\EMP_Management_System.Employee.EmployeeView.resources

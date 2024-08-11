@@ -429,7 +429,7 @@
             this.pickDateOfJoin.ForeColor = System.Drawing.SystemColors.ControlText;
             this.pickDateOfJoin.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.pickDateOfJoin.Location = new System.Drawing.Point(523, 348);
-            this.pickDateOfJoin.MaxDate = new System.DateTime(2024, 8, 11, 0, 0, 0, 0);
+            this.pickDateOfJoin.MaxDate = new System.DateTime(2024, 8, 12, 3, 6, 40, 0);
             this.pickDateOfJoin.MinDate = new System.DateTime(1948, 1, 1, 0, 0, 0, 0);
             this.pickDateOfJoin.Name = "pickDateOfJoin";
             this.pickDateOfJoin.Size = new System.Drawing.Size(326, 36);

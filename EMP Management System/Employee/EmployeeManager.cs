@@ -87,7 +87,7 @@ namespace EMP_Management_System
             }
         }
 
-        private void ValidateFormData(EmployeeFormData empData)
+        public void ValidateFormData(EmployeeFormData empData)
         {
             if (string.IsNullOrWhiteSpace(empData.FullName))
             {
@@ -215,17 +215,17 @@ namespace EMP_Management_System
 
 public class EmployeeFormData
 {
-    public int EmployeeID { get; set; }
+    public int EmployeeID { get; set; } 
     public string FullName { get; set; }
-    public string EmailAddress { get; set; }
-    public string ContactNumber { get; set; }
+    public string EmailAddress { get; set; } 
+    public string ContactNumber { get; set; } 
     public string ResidentAddress { get; set; }
-    public string Gender { get; set; }
+    public string Gender { get; set; } 
     public DateTime DateOfBirth { get; set; }
-    public string Designation { get; set; }
+    public string Designation { get; set; } 
     public string Department { get; set; }
-    public string Branch { get; set; }
-    public DateTime DateOfJoining { get; set; }
+    public string Branch { get; set; } 
+    public DateTime DateOfJoining { get; set; } 
     public string EmploymentType { get; set; }
 }
 

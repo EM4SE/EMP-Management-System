@@ -66,7 +66,8 @@ namespace EMP_Management_System
 
             if (e.ColumnIndex == EmployeeDataGridView.Columns["ViewPic"].Index)
             {
-                MessageBox.Show("ViewPic" + employeeId);
+                EmployeeView employeeView = new EmployeeView(employeeId);
+                employeeView.Show();
             }
             else if (e.ColumnIndex == EmployeeDataGridView.Columns["EditPic"].Index)
             {

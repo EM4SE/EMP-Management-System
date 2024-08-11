@@ -107,10 +107,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConfig.cs" />
-    <Compile Include="Designation.cs">
+    <Compile Include="Designations\Designation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Designation.Designer.cs">
+    <Compile Include="Designations\Designation.Designer.cs">
       <DependentUpon>Designation.cs</DependentUpon>
     </Compile>
     <Compile Include="Employee\EmployeeAdd.cs">
@@ -131,6 +131,12 @@
     </Compile>
     <Compile Include="Employee\EmployeeEdit.Designer.cs">
       <DependentUpon>EmployeeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\EmployeeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\EmployeeView.Designer.cs">
+      <DependentUpon>EmployeeView.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -158,7 +164,7 @@
     <Compile Include="Users.Designer.cs">
       <DependentUpon>Users.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Designation.resx">
+    <EmbeddedResource Include="Designations\Designation.resx">
       <DependentUpon>Designation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\EmployeeAdd.resx">
@@ -169,6 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Employee\Employees.resx">
       <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\EmployeeView.resx">
+      <DependentUpon>EmployeeView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -241,6 +250,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
