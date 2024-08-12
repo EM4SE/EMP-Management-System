@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\NIBM Projects\\GUI\\EMP Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\employee\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\employee\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|D:\\NIBM Projects\\GUI\\EMP Management System\\emp management system\\employee\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\employee\\employeeadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|D:\\NIBM Projects\\GUI\\EMP Management System\\emp management system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,37 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeeAdd.cs",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Employee\\EmployeeAdd.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\Employee\\EmployeeAdd.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Employee\\EmployeeAdd.cs",
-              "RelativeToolTip": "EMP Management System\\Employee\\EmployeeAdd.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAswDYAAAAQAAAA",
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Login.cs",
+              "RelativeDocumentMoniker": "EMP Management System\\Login.cs",
+              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Login.cs [Design]",
+              "RelativeToolTip": "EMP Management System\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:58:00.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeAdd.cs [Design]",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Employee\\EmployeeAdd.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\Employee\\EmployeeAdd.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Employee\\EmployeeAdd.cs [Design]",
-              "RelativeToolTip": "EMP Management System\\Employee\\EmployeeAdd.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:57:58.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\MainForm.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\MainForm.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\MainForm.cs [Design]",
-              "RelativeToolTip": "EMP Management System\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T20:05:37.584Z"
+              "WhenOpened": "2024-08-12T08:31:45.583Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

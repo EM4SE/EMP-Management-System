@@ -1,12 +1,17 @@
-﻿using System;
+﻿using exam_test;
+using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace EMP_Management_System
 {
@@ -15,6 +20,7 @@ namespace EMP_Management_System
         public EmployeeAdd()
         {
             InitializeComponent();
+            loadComboItem();
         }
 
         
@@ -25,7 +31,7 @@ namespace EMP_Management_System
             {
        
 
-                FullName = string.IsNullOrWhiteSpace(txtFullName.Text) ? "" : txtFullName.Text,
+                FullName = string.IsNullOrWhiteSpace(txtFullName.Text) ? "" : char.ToUpper(txtFullName.Text[0]) + txtFullName.Text.Substring(1),
                 EmailAddress = string.IsNullOrWhiteSpace(txtEmail.Text) ? " " : txtEmail.Text,
                 ContactNumber = string.IsNullOrWhiteSpace(txtContact.Text) ? " " : txtContact.Text,
                 ResidentAddress = string.IsNullOrWhiteSpace(txtAddress.Text) ? " " : txtAddress.Text,
@@ -52,10 +58,31 @@ namespace EMP_Management_System
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}");
-                
             }
+        }
 
-
+        private void loadComboItem()
+        {
+            try
+            {
+                MySqlConnection con = DBConfig.connectDB();
+                string sql = "Select name from designations";
+                MySqlCommand cmd = new MySqlCommand(sql, con);
+                con.Open();
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    comDesignation.Items.Add(rdr["name"].ToString());
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("An error occurred while Deleting the employee to the database." + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
+            }
         }
 
         private void clearTextboxed()

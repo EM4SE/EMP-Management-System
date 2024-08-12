@@ -28,6 +28,7 @@ namespace EMP_Management_System
         {
             EmployeeAdd employeeAdd = new EmployeeAdd();
             employeeAdd.Show();
+            this.Hide();
             employeeAdd.FormClosed += employeeAdd_FormClosed;
 
         }
@@ -47,11 +48,11 @@ namespace EMP_Management_System
             }
             catch (SqlException ex)
             {
-                throw new Exception("An error occurred while Loading the employee to the Table." + ex.Message);
+                MessageBox.Show("An error occurred while Loading the employee to the Table." + ex.Message);
             }
             catch (Exception ex)
             {
-                throw new Exception("An unexpected error occurred while processing your request." + ex.Message);
+                MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
             }
 
         }
@@ -73,6 +74,7 @@ namespace EMP_Management_System
             {
                 EmployeeEdit employeeEdit = new EmployeeEdit(employeeId);
                 employeeEdit.Show();
+                this.Hide();
                 employeeEdit.FormClosed += employeeEdit_FormClosed;
 
             }
@@ -96,10 +98,12 @@ namespace EMP_Management_System
         private void employeeAdd_FormClosed(object sender, FormClosedEventArgs e)
         {
             updategridd();
+            this.Show();
         }
         private void employeeEdit_FormClosed(object sender, FormClosedEventArgs e)
         {
             updategridd();
+            this.Show();
         }
     }
 }

@@ -50,11 +50,11 @@ namespace EMP_Management_System
             }
             catch (SqlException ex)
             {
-                throw new ArgumentException("An error occurred while adding the employee to the database." + ex.Message);
+                MessageBox.Show("An error occurred while adding the employee to the database." + ex.Message);
             }
             catch (Exception ex)
             {
-                throw new ArgumentException("An unexpected error occurred while processing your request." + ex.Message);
+                MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
             }
         }
 
@@ -78,11 +78,11 @@ namespace EMP_Management_System
                 }
                 catch (SqlException ex)
                 {
-                    throw new ArgumentException("An error occurred while Deleting the employee to the database." + ex.Message);
+                    MessageBox.Show("An error occurred while Deleting the employee to the database." + ex.Message);
                 }
                 catch (Exception ex)
                 {
-                    throw new ArgumentException("An unexpected error occurred while processing your request." + ex.Message);
+                    MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
                 }
             }
         }
@@ -203,11 +203,11 @@ namespace EMP_Management_System
             }
             catch (SqlException ex)
             {
-                throw new ArgumentException("An error occurred while adding the employee to the database." + ex.Message);
+                MessageBox.Show("An error occurred while adding the employee to the database." + ex.Message);
             }
             catch (Exception ex)
             {
-                throw new ArgumentException("An unexpected error occurred while processing your request." + ex.Message);
+                MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
             }
         }
     }

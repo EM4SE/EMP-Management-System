@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EMP_Management_System
 {
-    public partial class Users : Form
+    public partial class Login : Form
     {
-        public Users()
+        public Login()
         {
             InitializeComponent();
         }

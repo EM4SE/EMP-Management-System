@@ -15,6 +15,7 @@ namespace EMP_Management_System
         public MainForm()
         {
             InitializeComponent();
+            FillControls(new Home());
         }
 
         public void FillControls(Form form)
@@ -49,7 +50,7 @@ namespace EMP_Management_System
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            FillControls(new Settings());
+            FillControls(new Settings("adminw"));
         }
 
         private void btnHome_Click(object sender, EventArgs e)

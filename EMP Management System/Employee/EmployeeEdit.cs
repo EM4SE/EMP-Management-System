@@ -19,12 +19,14 @@ namespace EMP_Management_System.Employee
         public EmployeeEdit()
         {
             InitializeComponent();
+            loadComboItem();
         }
 
         public EmployeeEdit(int empID)
         {
             employeeID = empID;
             InitializeComponent();
+            loadComboItem();
             try
             {
                 MySqlConnection con = DBConfig.connectDB();
@@ -63,7 +65,7 @@ namespace EMP_Management_System.Employee
             }
             catch (SqlException ex)
             {
-                throw new Exception("An error occurred while adding the employee to the database." + ex.Message);
+                MessageBox.Show("An error occurred while adding the employee to the database." + ex.Message);
             }
             catch (Exception ex)
             {
@@ -81,7 +83,7 @@ namespace EMP_Management_System.Employee
             var EmpData = new EmployeeFormData
             {
                 EmployeeID = employeeID,
-                FullName = string.IsNullOrWhiteSpace(txtFullName.Text) ? "" : txtFullName.Text,
+                FullName = string.IsNullOrWhiteSpace(txtFullName.Text) ? "" : char.ToUpper(txtFullName.Text[0]) + txtFullName.Text.Substring(1),
                 EmailAddress = string.IsNullOrWhiteSpace(txtEmail.Text) ? " " : txtEmail.Text,
                 ContactNumber = string.IsNullOrWhiteSpace(txtContact.Text) ? " " : txtContact.Text,
                 ResidentAddress = string.IsNullOrWhiteSpace(txtAddress.Text) ? " " : txtAddress.Text,
@@ -112,5 +114,29 @@ namespace EMP_Management_System.Employee
 
 
         }
+        private void loadComboItem()
+        {
+            try
+            {
+                MySqlConnection con = DBConfig.connectDB();
+                string sql = "Select name from designations";
+                MySqlCommand cmd = new MySqlCommand(sql, con);
+                con.Open();
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    comDesignation.Items.Add(rdr["name"].ToString());
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("An error occurred while Deleting the employee to the database." + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
+            }
+        }
     }
+
 }

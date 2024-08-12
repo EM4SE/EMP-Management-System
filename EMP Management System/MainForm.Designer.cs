@@ -98,6 +98,7 @@
             this.btnHome.BackColor = System.Drawing.Color.Transparent;
             this.btnHome.BorderRadius = 20;
             this.btnHome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnHome.Checked = true;
             this.btnHome.CheckedState.BorderColor = System.Drawing.Color.Black;
             this.btnHome.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(173)))), ((int)(((byte)(226)))));
             this.btnHome.CheckedState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(214)))), ((int)(((byte)(141)))));

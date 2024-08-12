@@ -318,8 +318,6 @@
             this.comDesignation.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.comDesignation.ForeColor = System.Drawing.Color.Black;
             this.comDesignation.ItemHeight = 30;
-            this.comDesignation.Items.AddRange(new object[] {
-            "Manager"});
             this.comDesignation.Location = new System.Drawing.Point(523, 138);
             this.comDesignation.Name = "comDesignation";
             this.comDesignation.Size = new System.Drawing.Size(326, 36);
