@@ -22,6 +22,13 @@ namespace EMP_Management_System
             InitializeComponent();
             lblError.Text = "";
         }
+        public Login(string username)
+        {
+
+            InitializeComponent();
+            lblError.Text = "";
+            textUsername.Text = username;
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -49,7 +56,7 @@ namespace EMP_Management_System
                         string passwordDB = rdr.GetString("password");
                         if (Password == passwordDB)
                         {
-                            MainForm mainForm = new MainForm();
+                            MainForm mainForm = new MainForm(username);
                             mainForm.Show();
                             this.Hide();
                         }
@@ -67,7 +74,7 @@ namespace EMP_Management_System
                 }
                 catch (SqlException ex)
                 {
-                    MessageBox.Show("An error occurred while Deleting the employee to the database." + ex.Message);
+                    MessageBox.Show("An error occurred" + ex.Message);
                 }
                 catch (Exception ex)
                 {

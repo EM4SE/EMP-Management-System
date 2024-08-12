@@ -63,6 +63,16 @@ namespace EMP_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _9135995 {
+            get {
+                object obj = ResourceManager.GetObject("9135995", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cancel__1_ {
             get {
                 object obj = ResourceManager.GetObject("cancel (1)", resourceCulture);
@@ -216,6 +226,16 @@ namespace EMP_Management_System.Properties {
         internal static System.Drawing.Bitmap user_shape {
             get {
                 object obj = ResourceManager.GetObject("user-shape", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wall1 {
+            get {
+                object obj = ResourceManager.GetObject("wall1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

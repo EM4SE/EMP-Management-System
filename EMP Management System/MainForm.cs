@@ -12,6 +12,8 @@ namespace EMP_Management_System
 {
     public partial class MainForm : Form
     {
+
+        string UName;
         public MainForm()
         {
             InitializeComponent();
@@ -21,7 +23,8 @@ namespace EMP_Management_System
         public MainForm(string Username)
         {
             InitializeComponent();
-            FillControls(new Home());
+            UName = Username;
+            FillControls(new Home(UName));
         }
 
         public void FillControls(Form form)
@@ -56,7 +59,7 @@ namespace EMP_Management_System
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            FillControls(new Settings("adminw"));
+            FillControls(new Settings(UName));
         }
 
         private void btnHome_Click(object sender, EventArgs e)

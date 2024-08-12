@@ -1,5 +1,6 @@
 ﻿using EMP_Management_System.Employee;
 using exam_test;
+using Google.Protobuf.Reflection;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Ocsp;
 using System;
@@ -8,6 +9,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,11 +19,12 @@ namespace EMP_Management_System
 {
     public partial class Employees : Form
     {
+        
         public Employees()
         {
             InitializeComponent();
-           
             updategridd();
+            
         }
 
         private void btnEmpAdd_Click(object sender, EventArgs e)
@@ -32,6 +35,9 @@ namespace EMP_Management_System
             employeeAdd.FormClosed += employeeAdd_FormClosed;
 
         }
+
+
+
         public void updategridd()
         {
             try
@@ -41,10 +47,27 @@ namespace EMP_Management_System
                 MySqlCommand cmd = new MySqlCommand(sql, con);
 
                 MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
-
                 DataTable datatable = new DataTable();
                 adapter.Fill(datatable);
-                EmployeeDataGridView.DataSource = datatable;
+
+
+
+                if (string.IsNullOrWhiteSpace(textSearch.Text))
+                {
+                    EmployeeDataGridView.DataSource = datatable;
+                    
+                }
+
+                else
+                {
+                    var filteredData = datatable.AsEnumerable()
+            .Where(row => row.ItemArray
+                .Any(field => field.ToString().Contains(textSearch.Text)))
+            .CopyToDataTable();
+
+                    EmployeeDataGridView.DataSource = filteredData;
+                }
+                // EmployeeDataGridView.DataSource = datatable;
             }
             catch (SqlException ex)
             {
@@ -52,7 +75,7 @@ namespace EMP_Management_System
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
+                MessageBox.Show(ex.Message);
             }
 
         }
@@ -104,6 +127,11 @@ namespace EMP_Management_System
         {
             updategridd();
             this.Show();
+        }
+
+        private void textSearch_TextChanged(object sender, EventArgs e)
+        {
+            updategridd();
         }
     }
 }

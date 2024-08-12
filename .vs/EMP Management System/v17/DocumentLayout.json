@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\NIBM Projects\\GUI\\EMP Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|d:\\nibm projects\\gui\\emp management system\\emp management system\\designations\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF070FB-6DEA-414B-AD54-F5E23DF1C2E8}|EMP Management System\\EMP Management System.csproj|solutionrelative:emp management system\\designations\\designation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,78 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Program.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\Program.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Program.cs",
-              "RelativeToolTip": "EMP Management System\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T09:13:25.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\MainForm.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\MainForm.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\MainForm.cs",
-              "RelativeToolTip": "EMP Management System\\MainForm.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T09:10:51.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\MainForm.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\MainForm.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\MainForm.cs [Design]",
-              "RelativeToolTip": "EMP Management System\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T09:10:50.602Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Settings.cs [Design]",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Settings.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\Settings.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Settings.cs [Design]",
-              "RelativeToolTip": "EMP Management System\\Settings.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T09:03:43.813Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Login.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\Login.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Login.cs",
-              "RelativeToolTip": "EMP Management System\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Home.cs",
+              "RelativeDocumentMoniker": "EMP Management System\\Home.cs",
+              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Home.cs [Design]",
+              "RelativeToolTip": "EMP Management System\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T08:57:17.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T10:43:59.384Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Login.cs",
-              "RelativeDocumentMoniker": "EMP Management System\\Login.cs",
-              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Login.cs [Design]",
-              "RelativeToolTip": "EMP Management System\\Login.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Designation.cs",
+              "DocumentMoniker": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Designations\\Designation.cs",
+              "RelativeDocumentMoniker": "EMP Management System\\Designations\\Designation.cs",
+              "ToolTip": "D:\\NIBM Projects\\GUI\\EMP Management System\\EMP Management System\\Designations\\Designation.cs",
+              "RelativeToolTip": "EMP Management System\\Designations\\Designation.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADwv00AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T08:31:45.583Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-12T10:42:08.672Z",
+              "EditorCaption": ""
             }
           ]
         }

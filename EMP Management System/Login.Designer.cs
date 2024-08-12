@@ -81,7 +81,7 @@
             this.textUsername.PlaceholderText = "Enter Your Username";
             this.textUsername.SelectedText = "";
             this.textUsername.Size = new System.Drawing.Size(323, 48);
-            this.textUsername.TabIndex = 2;
+            this.textUsername.TabIndex = 0;
             // 
             // textPassword
             // 
@@ -103,7 +103,7 @@
             this.textPassword.PlaceholderText = "Enter Your Password";
             this.textPassword.SelectedText = "";
             this.textPassword.Size = new System.Drawing.Size(323, 48);
-            this.textPassword.TabIndex = 3;
+            this.textPassword.TabIndex = 1;
             // 
             // btnLogin
             // 
@@ -118,7 +118,7 @@
             this.btnLogin.Location = new System.Drawing.Point(577, 379);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(147, 45);
-            this.btnLogin.TabIndex = 4;
+            this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -136,7 +136,7 @@
             this.btnClose.Location = new System.Drawing.Point(753, 379);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(147, 45);
-            this.btnClose.TabIndex = 5;
+            this.btnClose.TabIndex = 3;
             this.btnClose.Text = "Close";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -203,7 +203,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "aaa eh";
+            this.Text = "2";
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

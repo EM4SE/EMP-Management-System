@@ -80,6 +80,7 @@ namespace EMP_Management_System
                 designationManager.AddDesignation(DesignationData);
 
                 updategridd();
+                cleartextboxes();
 
 
             }
@@ -112,6 +113,7 @@ namespace EMP_Management_System
                 designationManager.EditDesignation(DesignationData);
 
                 updategridd();
+                cleartextboxes();
 
 
             }
@@ -136,6 +138,7 @@ namespace EMP_Management_System
             {
                 designationManager.DeleteDesignation(DesignationData);
                 updategridd();
+                cleartextboxes();
 
 
             }
@@ -144,6 +147,12 @@ namespace EMP_Management_System
                 MessageBox.Show($"Error: {ex.Message}");
 
             }
+        }
+
+        private void cleartextboxes()
+        {
+            txtName.Clear();
+            textDescription.Clear();
         }
     }
 

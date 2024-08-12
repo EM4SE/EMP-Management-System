@@ -50,7 +50,7 @@ namespace EMP_Management_System
             }
             catch (SqlException ex)
             {
-                MessageBox.Show("An error occurred while Deleting the employee to the database." + ex.Message);
+                MessageBox.Show("An error occurred ." + ex.Message);
             }
             catch (Exception ex)
             {
@@ -98,7 +98,7 @@ namespace EMP_Management_System
             {
                 if (ex.Number == 2627 || ex.Number == 547 || ex.Number == 2601)
                 {
-                    MessageBox.Show("Error: Designation Name Already in Used");
+                    MessageBox.Show("Error: Already in Used");
                 }
                 else
                 {
@@ -149,7 +149,7 @@ namespace EMP_Management_System
             {
                 if (ex.Number == 2627 || ex.Number == 547 || ex.Number == 2601)
                 {
-                    MessageBox.Show("Error: Designation Name Already in Used");
+                    MessageBox.Show("Error:  Already in Used");
                 }
                 else
                 {
@@ -199,7 +199,7 @@ namespace EMP_Management_System
             {
                 if (ex.Number == 2627 || ex.Number == 547 || ex.Number == 2601)
                 {
-                    MessageBox.Show("Error: Designation Name Already in Used");
+                    MessageBox.Show("Error:  Name Already in Used");
                 }
                 else
                 {

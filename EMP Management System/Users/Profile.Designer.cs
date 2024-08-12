@@ -81,6 +81,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(99, 34);
             this.guna2Button1.TabIndex = 2;
             this.guna2Button1.Text = "Login as User ";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // lblUsername
             // 

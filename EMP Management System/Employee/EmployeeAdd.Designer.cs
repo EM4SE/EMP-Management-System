@@ -91,7 +91,7 @@
             this.txtAddress.PlaceholderText = "Enter Resident Address";
             this.txtAddress.SelectedText = "";
             this.txtAddress.Size = new System.Drawing.Size(326, 105);
-            this.txtAddress.TabIndex = 25;
+            this.txtAddress.TabIndex = 3;
             // 
             // label7
             // 
@@ -122,7 +122,7 @@
             this.comGender.Location = new System.Drawing.Point(156, 488);
             this.comGender.Name = "comGender";
             this.comGender.Size = new System.Drawing.Size(326, 36);
-            this.comGender.TabIndex = 23;
+            this.comGender.TabIndex = 4;
             // 
             // txtContact
             // 
@@ -146,7 +146,7 @@
             this.txtContact.PlaceholderText = "Enter Contact Number ";
             this.txtContact.SelectedText = "";
             this.txtContact.Size = new System.Drawing.Size(326, 36);
-            this.txtContact.TabIndex = 21;
+            this.txtContact.TabIndex = 2;
             // 
             // label5
             // 
@@ -192,7 +192,7 @@
             this.txtEmail.PlaceholderText = "Enter Email Address";
             this.txtEmail.SelectedText = "";
             this.txtEmail.Size = new System.Drawing.Size(326, 36);
-            this.txtEmail.TabIndex = 18;
+            this.txtEmail.TabIndex = 1;
             // 
             // label3
             // 
@@ -235,7 +235,7 @@
             this.pickDateOfBirth.MinDate = new System.DateTime(1948, 1, 1, 0, 0, 0, 0);
             this.pickDateOfBirth.Name = "pickDateOfBirth";
             this.pickDateOfBirth.Size = new System.Drawing.Size(326, 36);
-            this.pickDateOfBirth.TabIndex = 15;
+            this.pickDateOfBirth.TabIndex = 5;
             this.pickDateOfBirth.Value = new System.DateTime(2024, 8, 11, 0, 0, 0, 0);
             // 
             // txtFullName
@@ -260,7 +260,7 @@
             this.txtFullName.PlaceholderText = "Enter Full Name";
             this.txtFullName.SelectedText = "";
             this.txtFullName.Size = new System.Drawing.Size(326, 36);
-            this.txtFullName.TabIndex = 14;
+            this.txtFullName.TabIndex = 0;
             // 
             // label1
             // 
@@ -321,7 +321,7 @@
             this.comDesignation.Location = new System.Drawing.Point(523, 138);
             this.comDesignation.Name = "comDesignation";
             this.comDesignation.Size = new System.Drawing.Size(326, 36);
-            this.comDesignation.TabIndex = 31;
+            this.comDesignation.TabIndex = 6;
             // 
             // label11
             // 
@@ -372,7 +372,7 @@
             this.comDepartment.Location = new System.Drawing.Point(523, 208);
             this.comDepartment.Name = "comDepartment";
             this.comDepartment.Size = new System.Drawing.Size(326, 36);
-            this.comDepartment.TabIndex = 34;
+            this.comDepartment.TabIndex = 7;
             // 
             // comBranch
             // 
@@ -399,7 +399,7 @@
             this.comBranch.Location = new System.Drawing.Point(523, 278);
             this.comBranch.Name = "comBranch";
             this.comBranch.Size = new System.Drawing.Size(326, 36);
-            this.comBranch.TabIndex = 35;
+            this.comBranch.TabIndex = 8;
             // 
             // label13
             // 
@@ -431,7 +431,7 @@
             this.pickDateOfJoin.MinDate = new System.DateTime(1948, 1, 1, 0, 0, 0, 0);
             this.pickDateOfJoin.Name = "pickDateOfJoin";
             this.pickDateOfJoin.Size = new System.Drawing.Size(326, 36);
-            this.pickDateOfJoin.TabIndex = 37;
+            this.pickDateOfJoin.TabIndex = 9;
             this.pickDateOfJoin.Value = new System.DateTime(2024, 8, 11, 0, 0, 0, 0);
             // 
             // label14
@@ -469,7 +469,7 @@
             this.comEmpType.Location = new System.Drawing.Point(523, 418);
             this.comEmpType.Name = "comEmpType";
             this.comEmpType.Size = new System.Drawing.Size(326, 36);
-            this.comEmpType.TabIndex = 39;
+            this.comEmpType.TabIndex = 10;
             // 
             // btnAddEmployee
             // 
@@ -484,7 +484,7 @@
             this.btnAddEmployee.Location = new System.Drawing.Point(523, 510);
             this.btnAddEmployee.Name = "btnAddEmployee";
             this.btnAddEmployee.Size = new System.Drawing.Size(150, 45);
-            this.btnAddEmployee.TabIndex = 40;
+            this.btnAddEmployee.TabIndex = 11;
             this.btnAddEmployee.Text = "Add Employee";
             this.btnAddEmployee.Click += new System.EventHandler(this.btnAddEmployee_Click);
             // 
@@ -502,7 +502,7 @@
             this.btnClose.Location = new System.Drawing.Point(699, 510);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(150, 45);
-            this.btnClose.TabIndex = 41;
+            this.btnClose.TabIndex = 12;
             this.btnClose.Text = "Cancel";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 

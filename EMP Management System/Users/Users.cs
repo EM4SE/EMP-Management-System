@@ -30,7 +30,7 @@ namespace EMP_Management_System
                 while (rdr.Read())
                 {
                     String name = rdr["name"].ToString();
-                    String uname = "@"+rdr["username"].ToString();
+                    String uname = rdr["username"].ToString();
                     Profile pro = new Profile(name,uname);
                     pro.Dock = DockStyle.Top;
                     flowMain.Controls.Add(pro);
