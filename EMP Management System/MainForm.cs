@@ -18,6 +18,12 @@ namespace EMP_Management_System
             FillControls(new Home());
         }
 
+        public MainForm(string Username)
+        {
+            InitializeComponent();
+            FillControls(new Home());
+        }
+
         public void FillControls(Form form)
         {
             pnlMain.Controls.Clear();

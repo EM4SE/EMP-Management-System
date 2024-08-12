@@ -50,11 +50,11 @@ namespace EMP_Management_System
             }
             catch (SqlException ex)
             {
-                throw new ArgumentException("An error occurred while Deleting the employee to the database." + ex.Message);
+                MessageBox.Show("An error occurred while Deleting the employee to the database." + ex.Message);
             }
             catch (Exception ex)
             {
-                throw new ArgumentException("An unexpected error occurred while processing your request." + ex.Message);
+                MessageBox.Show("An unexpected error occurred while processing your request." + ex.Message);
             }
            
         }
@@ -121,7 +121,7 @@ namespace EMP_Management_System
             {
                 if (string.IsNullOrWhiteSpace(textPassword.Text))
                 {
-                    MessageBox.Show("Please enter a new password.", "Validation Error");
+                    throw new ArgumentException("Please enter a new password.", "Validation Error");
 
                 }
                 if (textPassword.Text.Length < 8)
